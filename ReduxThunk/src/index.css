@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@keyframes loading {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  50% {
+    transform: translateX(120%);
+  }
+
+  100% {
+    transform: translateX(-120%);
+  }
+}
